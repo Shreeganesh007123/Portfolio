@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shreeganesh - Developer Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Shreeganesh's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/shree-ganesh-3b0114254/"><i
+                class="fa-brands fa-linkedin fa-2x"></i></a>
+          </li>
+          <li>
+            <a href="https://github.com/Shreeganesh007123"><i class="fa-brands fa-github fa-2x"></i></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/stayheroic/"><i class="fa-brands fa-instagram fa-2x"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="firstSection">
+      <div class="leftSection">
+        Hello there! , My name is
+        <p><span class="purple"></span></p>
+        <div>I am a passionate</div>
+        <span id="element"></span>
+      </div>
+      <div class="rightSection">
+        <img src="bg.png" alt="Developer image png" />
+      </div>
+    </section>
+    <hr />
+    <p style="text-align: center">
+      <span class="about-me"></span>
+    </p>
+    <br />
+    <br />
+
+    <section class="secondSection">
+      <div class="leftSecondSection">
+        <img src="pngegg (1).png" alt="Developer image png" />
+      </div>
+      <div class="rightSecondSection">
+        <p>
+          I am a beginner in web development, eager to explore the exciting
+          world of coding and design. With foundational knowledge in HTML,
+          CSS, and a growing interest in JavaScript, I enjoy experimenting
+          with creating user-friendly web pages and learning how different
+          technologies work together to build websites. My focus is on
+          understanding the basics and improving my skills through practice
+          and projects. I’m curious about how websites function behind the
+          scenes and am enthusiastic about expanding my knowledge into areas
+          like responsive design and interactivity. Each new challenge fuels
+          my passion for web development and problem-solving.
+        </p>
+      </div>
+    </section>
+    <hr class="secondhr" />
+    <section class="thirdSection">
+      <p><span class="tech"></span></p>
+      <div class="logo-container">
+
+        <img src="logo1.png" alt="Logo 1" class="skill-logo" title="HTML" />
+        <img src="logo2.png" alt="Logo 2" class="skill-logo" title="JavaScript" />
+        <img src="logo3.png" alt="Logo 3" class="skill-logo" title="CSS" />
+        <img src="logo4.png" alt="Logo 4" class="skill-logo" title="Linux" />
+        <img src="logo5.png" alt="Logo 4" class="skill-logo" title="Java" />
+        <img src="logo6.png" alt="Logo 4" class="skill-logo" title="MySQL" />
+        <img src="logo7.png" alt="Logo 4" class="skill-logo" title="C++" />
+        <img src="logo8.png" alt="Logo 4" class="skill-logo" title="React" />
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer">
+      <div class="footer-first">
+        <h3 style="color: black">
+          Shreeganesh's Portfolio | &copy; All rights reserved
+        </h3>
+        <h3>
+          <a href="shreeganesh007123@gmail.com" class="email-link">
+            <i class="fa-solid fa-envelope fa-1x"></i>
+            shreeganesh007123@gmail.com
+          </a>
+        </h3>
+        <h6></h6>
+      </div>
+      <div class="footer-second"></div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <script>
+    var typed = new Typed("#element", {
+      strings: ["Web Developer", "Android Developer", "Software Developer"],
+      typeSpeed: 50,
+    });
+
+    var typed = new Typed(".about-me", {
+      strings: ["About Me"],
+      typeSpeed: 80,
+    });
+
+    var typed = new Typed(".purple", {
+      strings: ["SHREE GANESH"],
+      typeSpeed: 50,
+    });
+
+    var typed = new Typed(".tech", {
+      strings: ["Tech Skills"],
+      typeSpeed: 80,
+    });
+
+  </script>
+</body>
+
+</html>
