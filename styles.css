@@ -96,7 +96,6 @@ main hr {
 .secondSection {
     max-width: 80vw;
     margin: auto;
-    height: 40vh;
 }
 
 
@@ -164,8 +163,8 @@ main hr {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    height: 20vh;
     background-color: #222;
+    flex:wrap;
 
 }
 
