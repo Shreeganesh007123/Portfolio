@@ -13,7 +13,6 @@ function App() {
 
   return (
     <>
-    <GridOverlay/>
    <Navbar/>
    <Home/>
    <About/>
