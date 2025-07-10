@@ -1,6 +1,6 @@
 import { React, useEffect, useRef } from 'react';
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
-import hero from '../assets/image.jpeg';
+import hero from '../assets/image1.jpeg';
 import Typed from 'typed.js';
 
 const Home = () => {
