@@ -78,7 +78,7 @@ const Home = () => {
               <h3 className='text-2xl sm:text-2xl md:text-2xl font-bold'><span className='text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500' ref={typedRef}></span></h3>
 
               <p className="mt-4 text-gray-300 text-sm sm:text-base max-w-lg">
-                I'm a Full Stack Developer skilled in building dynamic web apps, solving complex DSA problems, and developing Android applications. Passionate about creating scalable solutions across platforms with modern tech..
+                I'm a Full Stack Developer skilled in building dynamic web apps, solving complex DSA problems, and developing Android applications. Passionate about creating scalable solutions across platforms with modern tech.
               </p>
 
               <a
